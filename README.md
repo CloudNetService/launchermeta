@@ -39,7 +39,9 @@ which are maintained by CloudNet will be added when generating the updater files
 
 An entry **always** has the following properties:
 
+- `offical`: `true` if the module is offically maintained by CloudNet, `false` if an external developer contributed the module.
 - `name`: The unique name of the module (must match the name in the module description file).
+- `website`: The website which is associated with the project, for example the GitHub repository of the module.
 - `version`: The current version of the module.
 - `sha3256`: The [SHA3-256](https://en.wikipedia.org/wiki/SHA-3) sum of the module file.
 - `description`: A short description what the module does for you.
